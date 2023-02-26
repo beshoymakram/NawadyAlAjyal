@@ -714,6 +714,11 @@
   .navbar .nav-link.single:hover:after {
     display: none;
   }
+
+  .navbar .nav-link.single.active::after {
+    display: none;
+  }
+
   .home-section .bg {
     width: 100%;
     min-height: 80vh;
