@@ -60,6 +60,12 @@
   background-color: #707070;
 }
 
+.navbar .nav-link {
+  font-size: 16px;
+  color: #707070;
+  border-bottom: 2px solid transparent;
+}
+
 .navbar .active {
   color: black;
   border-bottom: 2px solid #2786CC;
@@ -74,11 +80,7 @@
   background-color: #707070;
 }
 
-.navbar .nav-link {
-  font-size: 16px;
-  color: #707070;
-  border-bottom: 2px solid transparent;
-}
+
 
 .navbar .nav-link:hover {
   color: black;
@@ -796,7 +798,9 @@
 
 @media all and (max-width: 575px) {
 
-  
+  .rectangle .left-side .rectangle-item {
+    font-size: 10px;
+}
 
   .home-section .bg {
     width: 100%;
