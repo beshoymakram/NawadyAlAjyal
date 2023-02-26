@@ -80,13 +80,17 @@
   height: 3px;
   width: 100%;
   position: absolute;
-  top: 161%;
+  top: 130%;
   left: 0px;
   background-color: #2786CC;
   display: none;
 }
 
 .navbar .nav-link.single:hover:after {
+  display: block;
+}
+
+.navbar .nav-link.single.active::after {
   display: block;
 }
 
