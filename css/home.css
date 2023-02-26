@@ -833,6 +833,11 @@
       left: 90%;
   }
 
+  .copyrights-section .col-12 {
+    justify-content: center !important;
+    text-align: center;
+  }
+
   .copyrights-section strong {
     font-size: 14px;
   }
