@@ -1,0 +1,916 @@
+  /* Custom For All Elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.main-color {
+  color: #2786CC;
+}
+
+.sec-color {
+  color: #707070;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.top-section {
+  background-color: #2786CC;
+}
+
+.underline {
+  width: 40px;
+  height: 3px;
+  background-color: #2786CC;
+  margin: 15px 0;
+}
+
+.rectangle {
+  width: 100%;
+  height: 60px;
+  color: #fff;
+}
+
+.rectangle a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.rectangle i {
+  font-size: 20px;
+}
+
+.rectangle .rectangle-item {
+  font-size: 12px;
+}
+
+.rectangle .left-side .rectangle-item {
+  padding: 10px;
+}
+
+.rectangle .left-side .rectangle-item:hover {
+  background-color: #707070;
+}
+
+.navbar .active {
+  color: black;
+  border-bottom: 2px solid #2786CC;
+}
+
+.navbar .btn {
+  background-color: #2786CC;
+  border-radius: 0;
+}
+
+.navbar .btn:hover {
+  background-color: #707070;
+}
+
+.navbar .nav-link {
+  font-size: 16px;
+  color: #707070;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar .nav-link:hover {
+  color: black;
+  border-bottom: 2px solid #2786CC;
+}
+
+.home-section {
+  position: relative;
+}
+
+.home-section .bg {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../images/main-section.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.home-section .bg .bg-overlay {
+  background: rgba(35,70,96,0.45 );
+  background: linear-gradient(-90deg, 
+ rgba(35,70,96,0.45 ) 0.00%, 
+ rgba(2,27,46,0.4 ) 100.00%);
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+
+.home-section .bg .bg-overlay .text h1 {
+  font-size: 82px;
+  text-align: center;
+}
+
+.home-section .bg .bg-overlay .text h3 {
+  font-size: 32px;
+  text-align: center;
+}
+
+
+.services-section {
+  width: 75%;
+  position: absolute;
+  top: 95%;
+  margin: auto;
+  left: 13%;
+  filter: drop-shadow(-6.123234262925839e-17px 1px 36.5px rgba(40,40,40,0.15 ));
+}
+
+.services-section .services {
+  background-image: url(../images/services-bg.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.services-section .service {
+  border-left: 2px solid #EAEAEA;
+  border-collapse: collapse;
+  padding: 30px 40px;
+}
+
+.services-section .service:last-child {
+  border: 0;
+}
+
+.services-section .service .icon svg {
+  font-size: 60px;
+  color: #2786CC;
+}
+
+.services-section .service .title strong {
+  color: black;
+  font-size: 18px;
+}
+
+.services-section .service .text p {
+  color: #707070;
+  font-size: 18px;
+}
+
+.who-are-we-section {
+  background-image: url(../images/services-bg.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50vh;
+}
+
+.who-are-we-section .btn {
+  background-color: #2786CC;
+  border-radius: 0;
+  padding: 5px 70px;
+}
+
+.who-are-we-section .btn:hover {
+  background-color: #707070;
+}
+
+.who-are-we-section .slides {
+  position: relative;
+}
+
+.who-are-we-section .slides .slide-white {
+  position: absolute;
+  top: 5%;
+  left: 14%;
+}
+
+.who-are-we-section .slides .slide-2 {
+  position: absolute;
+  top: -13%;
+  left: 4%;
+}
+
+.our-programs-section {
+  background-image: url(../images/services-bg.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.our-programs-section .program {
+  width: 241px;
+  height: 274.2px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-programs-section .program .overlay {
+  width: 241px;
+  height: 274.2px;
+  background-image: url(../images/hexagon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-programs-section .program .overlay .icon {
+  background-color: #2786CC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+}
+
+.our-programs-section .program .overlay .icon.icon-2 {
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+}
+
+
+.our-programs-section .btn {
+  background-color: #2786CC;
+  border-radius: 0;
+  padding: 5px 70px;
+}
+
+.our-programs-section .btn:hover {
+  background-color: #707070;
+}
+
+.our-gallery-section {
+  background-image: url(../images/bg-gray.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.our-gallery-section .btn {
+  background-color: #2786CC;
+  border-radius: 0;
+  padding: 5px 70px;
+}
+
+.our-gallery-section .owl-carousel .item {
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.our-gallery-section .owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  bottom: 50%;
+  font-size: 50px;
+  right: 100%;
+  color: #2786CC;
+}
+
+.our-gallery-section .owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  bottom: 50%;
+  font-size: 50px;
+  left: 100%;
+  color: #2786CC;
+}
+
+.our-gallery-section .owl-carousel .owl-nav .owl-prev:hover {
+  color: #707070;
+  background-color: transparent;
+}
+  .our-gallery-section .owl-carousel .owl-nav .owl-next:hover {
+  color: #707070;
+  background-color: transparent;
+  }
+
+
+  .our-gallery-section .btn {
+    background-color: #2786CC;
+    border-radius: 0;
+    padding: 5px 70px;
+  }
+  
+  .our-gallery-section .btn:hover {
+    background-color: #707070;
+  }
+
+
+  .news-section .thumbnail {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+  }
+
+  .news-section .news small {
+    color: #2786CC;
+  }
+
+  .news-section .news p {
+    color: #707070;
+  }
+
+  .they-say-section {
+    background-image: url(../images/services-bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+  .they-say-section .item {
+    opacity:0.4;
+    transition:.4s ease all;
+    transform:scale(.9);
+  }
+
+  @media(max-width:1000px){
+    .they-say-section .item {margin:0; transform:scale(.9)}
+  }
+  .they-say-section .active .item {
+    opacity:1;
+    transform:scale(1);
+  } 
+  
+  .they-say-section .owl-item { /*loop issue fixed*/
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  }
+  
+  
+  .they-say-section .owl-controls{position:absolute; margin-top:300px;}
+
+  .they-say-section .item {
+    position: relative;
+  }
+
+
+  .they-say-section .item .text {
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0.5px 0.8660253882408142px 20px rgba(0,0,0,0.2 ));
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .they-say-section .item .author {
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10%;
+  }
+
+
+  .success-partners-section {
+    background-image: url(../images/bg-gray.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+  }
+
+
+  .footer-section {
+    background-color: #2786CC;
+  }
+
+  .footer-section .platform {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+  }
+
+  .footer-section svg {
+    font-size: 22px !important;
+  }
+
+  .footer-section .platform:hover {
+    border: 2px solid #fff;
+  }
+
+  .footer-section li {
+    list-style: none;
+  }
+
+  .footer-section li:hover {
+    padding-right: 10px;
+  }
+
+  .footer-section a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .copyrights-section small a {
+    text-decoration: none;
+  }
+
+
+  @media all and (max-width: 1450px) {
+    .our-gallery-section .owl-carousel .owl-nav .owl-prev {
+        bottom: 50%;
+        font-size: 50px;
+        right: 95%;
+    }
+  
+    .our-gallery-section .owl-carousel .owl-nav .owl-next {
+        bottom: 50%;
+        font-size: 50px;
+        left: 95%;
+    }
+  }
+
+  @media all and (max-width: 1400px) {
+    .rectangle .rectangle-item.remove {
+      display: none !important;
+    }
+  }
+
+  @media all and (min-width: 1200px) and (max-width: 1400px) {
+    .home-section .bg {
+      width: 100%;
+      min-height: 80vh;
+    }
+  
+    .home-section .bg .bg-overlay .text h1 {
+      font-size: 30px;
+    }
+  
+    .home-section .bg .bg-overlay .text h3 {
+      font-size: 24px;
+    }
+    
+    .services-section .service .icon svg {
+      font-size: 30px;
+    }
+  
+    .services-section .service .title strong {
+      font-size: 18px;
+    }
+  
+    .services-section .service .text p {
+      font-size: 14px;
+    }
+    
+    .who-are-we-section h3 {
+      font-size: 20px;
+    }
+  
+    .who-are-we-section h2 {
+      font-size: 22px;
+    }
+  
+    .who-are-we-section p {
+      font-size: 18px;
+    }
+  
+    .who-are-we-section .btn {
+      font-size: 18px;
+    }
+  
+    .our-programs-section .btn {
+      font-size: 18px;
+    }
+  
+    .news-section .news .new .details small {
+      font-size: 12px;
+    }
+  
+    .news-section .news .new .details h5 {
+      font-size: 20px;
+    }
+  
+    .news-section .news .new .details p {
+      font-size: 18px;
+    }
+  
+    .news-section .news .new .details .date {
+      font-size: 12px;
+    }
+  
+    .they-say-section .item .text {
+      font-size: 18px;
+    }
+  
+    h4.fw-bold {
+      font-size: 20px;
+    }
+  
+    .success-partners-section small {
+      font-size: 12px;
+    }
+  
+    .visitors-section h6 {
+      font-size: 18px;
+    }
+  
+    .visitors-section svg {
+      font-size: 22px;
+    }
+  
+    .our-gallery-section .btn {
+      font-size: 15px;
+    }
+  
+    .footer-section svg {
+      font-size: 22px !important;
+    }
+  
+    .footer-section h5 {
+      font-size: 18px;
+    }
+  
+    .footer-section li {
+      font-size: 15px;
+    }
+    
+  }
+
+
+  @media all and (min-width: 991px) and (max-width: 1400px) {
+    .navbar .nav-link {
+      font-size: 14px;
+      color: #707070;
+    }
+  }
+
+@media all and (max-width: 1200px) {
+
+  .home-section .bg {
+    width: 100%;
+    min-height: 80vh;
+  }
+
+  .home-section .bg .bg-overlay .text h1 {
+    font-size: 30px;
+  }
+
+  .home-section .bg .bg-overlay .text h3 {
+    font-size: 20px;
+  }
+
+  .services-section .service {
+    border: 0;
+    border-bottom: 1px solid #EAEAEA;
+  }
+
+  .services-section .service .icon svg {
+    font-size: 30px;
+  }
+
+  .services-section .service .title strong {
+    font-size: 16px;
+  }
+
+  .services-section .service .text p {
+    font-size: 12px;
+  }
+  
+  .who-are-we-section h3 {
+    font-size: 18px;
+  }
+
+  .who-are-we-section h2 {
+    font-size: 22px;
+  }
+
+  .who-are-we-section p {
+    font-size: 16px;
+  }
+
+  .who-are-we-section .btn {
+    font-size: 16px;
+  }
+
+  .our-programs-section .btn {
+    font-size: 16px;
+  }
+
+  .news-section .news .new .details small {
+    font-size: 12px;
+  }
+
+  .news-section .news .new .details h5 {
+    font-size: 18px;
+  }
+
+  .news-section .news .new .details p {
+    font-size: 16px;
+  }
+
+  .news-section .news .new .details .date {
+    font-size: 12px;
+  }
+
+  .they-say-section .item .text {
+    font-size: 16px;
+  }
+
+  h4.fw-bold {
+    font-size: 18px;
+  }
+
+  .success-partners-section small {
+    font-size: 12px;
+  }
+
+  .visitors-section h6 {
+    font-size: 16px;
+  }
+
+  .visitors-section svg {
+    font-size: 20px;
+  }
+
+  .our-gallery-section .btn {
+    font-size: 15px;
+  }
+
+  .footer-section svg {
+    font-size: 20px !important;
+  }
+
+  .footer-section h5 {
+    font-size: 16px;
+  }
+
+  .footer-section li {
+    font-size: 15px;
+  }
+  
+  .services-section {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .who-are-we-section {
+    padding-top: 0;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .home-section .bg {
+    width: 100%;
+    min-height: 80vh;
+  }
+
+  .home-section .bg .bg-overlay .text h1 {
+    font-size: 30px;
+  }
+
+  .home-section .bg .bg-overlay .text h3 {
+    font-size: 20px;
+  }
+
+  .services-section .service {
+    border: 0;
+    border-bottom: 1px solid #EAEAEA;
+  }
+
+  .services-section .service .icon svg {
+    font-size: 30px;
+  }
+
+  .services-section .service .title strong {
+    font-size: 16px;
+  }
+
+  .services-section .service .text p {
+    font-size: 12px;
+  }
+  
+  .who-are-we-section h3 {
+    font-size: 18px;
+  }
+
+  .who-are-we-section h2 {
+    font-size: 18px;
+  }
+
+  .who-are-we-section p {
+    font-size: 16px;
+  }
+
+  .who-are-we-section .btn {
+    font-size: 16px;
+  }
+
+  .our-programs-section .btn {
+    font-size: 16px;
+  }
+
+  .news-section .news .new .details small {
+    font-size: 12px;
+  }
+
+  .news-section .news .new .details h5 {
+    font-size: 18px;
+  }
+
+  .news-section .news .new .details p {
+    font-size: 16px;
+  }
+
+  .news-section .news .new .details .date {
+    font-size: 12px;
+  }
+
+  .they-say-section .item .text {
+    font-size: 16px;
+  }
+
+  h4.fw-bold {
+    font-size: 18px;
+  }
+
+  .success-partners-section small {
+    font-size: 12px;
+  }
+
+  .visitors-section h6 {
+    font-size: 16px;
+  }
+
+  .visitors-section svg {
+    font-size: 18px;
+  }
+
+  .our-gallery-section .btn {
+    font-size: 16px;
+  }
+
+  .footer-section svg {
+    font-size: 18px !important;
+  }
+
+  .footer-section h5 {
+    font-size: 18px;
+  }
+
+  .footer-section li {
+    font-size: 16px;
+  }
+  
+  .our-gallery-section .owl-carousel .owl-nav .owl-prev {
+      bottom: 50%;
+      font-size: 50px;
+      right: 90%;
+  }
+
+  .our-gallery-section .owl-carousel .owl-nav .owl-next {
+      bottom: 50%;
+      font-size: 50px;
+      left: 90%;
+  }
+
+  .copyrights-section strong {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 575px) {
+
+  
+
+  .home-section .bg {
+    width: 100%;
+    min-height: 80vh;
+  }
+
+  .home-section .bg .bg-overlay .text h1 {
+    font-size: 30px;
+  }
+
+  .home-section .bg .bg-overlay .text h3 {
+    font-size: 20px;
+  }
+
+  .services-section .service {
+    border: 0;
+    border-bottom: 1px solid #EAEAEA;
+  }
+
+  .services-section .service .icon svg {
+    font-size: 30px;
+  }
+
+  .services-section .service .title strong {
+    font-size: 14px;
+  }
+
+  .services-section .service .text p {
+    font-size: 12px;
+  }
+  
+  .who-are-we-section h3 {
+    font-size: 16px;
+  }
+
+  .who-are-we-section h2 {
+    font-size: 18px;
+  }
+
+  .who-are-we-section p {
+    font-size: 14px;
+  }
+
+  .who-are-we-section .btn {
+    font-size: 14px;
+  }
+
+  .our-programs-section .btn {
+    font-size: 14px;
+  }
+
+  .news-section .news .new .details small {
+    font-size: 12px;
+  }
+
+  .news-section .news .new .details h5 {
+    font-size: 16px;
+  }
+
+  .news-section .news .new .details p {
+    font-size: 14px;
+  }
+
+  .news-section .news .new .details .date {
+    font-size: 12px;
+  }
+
+  .they-say-section .item .text {
+    font-size: 14px;
+  }
+
+  h4.fw-bold {
+    font-size: 16px;
+  }
+
+  .success-partners-section small {
+    font-size: 12px;
+  }
+
+  .visitors-section h6 {
+    font-size: 14px;
+  }
+
+  .visitors-section svg {
+    font-size: 18px;
+  }
+
+  .our-gallery-section .owl-carousel .owl-nav .owl-prev {
+      bottom: 50%;
+      font-size: 40px;
+      right: 85%;
+      font-size: 50px;
+    }
+
+  .our-gallery-section .owl-carousel .owl-nav .owl-next {
+      bottom: 50%;
+      font-size: 40px;
+      left: 85%;
+      font-size: 50px;
+  }
+
+  .our-gallery-section .btn {
+    font-size: 14px;
+  }
+
+  .footer-section svg {
+    font-size: 18px !important;
+  }
+
+  .footer-section h5 {
+    font-size: 16px;
+  }
+
+  .footer-section li {
+    font-size: 14px;
+  }
+}
