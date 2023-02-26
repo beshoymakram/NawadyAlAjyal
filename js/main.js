@@ -19,6 +19,54 @@ $('#owl-1').owlCarousel({
     }
 })
 
+$('#owl-3').owlCarousel({
+    loop: true,
+    margin: 30,
+    padding: 0,
+    nav: true,
+    autoHeight: true,
+    dots: false,
+    navText: ['<i class="fa-solid bg-white rounded-circle fa-circle-arrow-left"></i>', '<i class="fa-solid bg-white rounded-circle fa-circle-arrow-right"></i>'],
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        1200: {
+            items: 3
+        },
+        1300: {
+            items: 4
+        },
+        1400: {
+            items: 5
+        },
+    }
+})
+
+$('#owl-4').owlCarousel({
+    loop: true,
+    margin: 30,
+    padding: 0,
+    nav: true,
+    autoHeight: true,
+    dots: false,
+    navText: ['<i class="fa-solid bg-white rounded-circle fa-circle-arrow-left"></i>', '<i class="fa-solid bg-white rounded-circle fa-circle-arrow-right"></i>'],
+    responsive: {
+        0: {
+            items: 3
+        },
+        600: {
+            items: 4
+        },
+        1400: {
+            items: 5
+        },
+    }
+})
+
 $('#owl-2').owlCarousel({
     stagePadding: 200,
     loop:true,

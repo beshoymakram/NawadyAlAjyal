@@ -210,6 +210,7 @@
 
 .who-are-we-section .slides {
   position: relative;
+  overflow: hidden;
 }
 
 .who-are-we-section .slides .slide-white {
@@ -279,6 +280,31 @@
 .our-programs-section .btn:hover {
   background-color: #707070;
 }
+
+.our-programs-section .owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  bottom: -10%;
+  font-size: 50px;
+  right: 50%;
+  color: #2786CC;
+}
+
+.our-programs-section .owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  bottom: -10%;
+  font-size: 50px;
+  left: 50%;
+  color: #2786CC;
+}
+
+.our-programs-section .owl-carousel .owl-nav .owl-prev:hover {
+  color: #707070;
+  background-color: transparent;
+}
+  .our-programs-section .owl-carousel .owl-nav .owl-next:hover {
+  color: #707070;
+  background-color: transparent;
+  }
 
 .our-gallery-section {
   background-image: url(../images/bg-gray.png);
@@ -421,6 +447,37 @@
     background-repeat: no-repeat;
   }
 
+  .success-partners-section .item {
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .success-partners-section .owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    bottom: -10%;
+    font-size: 50px;
+    right: 50%;
+    color: #707070;
+  }
+  
+  .success-partners-section .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    bottom: -10%;
+    font-size: 50px;
+    left: 50%;
+    color: #707070;
+  }
+
+  .success-partners-section .owl-carousel .owl-nav .owl-prev:hover {
+    color: #707070;
+    background-color: transparent;
+  }
+    .success-partners-section .owl-carousel .owl-nav .owl-next:hover {
+    color: #707070;
+    background-color: transparent;
+    }
 
   .footer-section {
     background-color: #2786CC;
@@ -527,6 +584,7 @@
     .our-programs-section .btn {
       font-size: 18px;
     }
+
   
     .news-section .news .new .details small {
       font-size: 12px;
@@ -587,6 +645,26 @@
     .navbar .nav-link {
       font-size: 14px;
       color: #707070;
+    }
+
+    .who-are-we-section .slides-parent {
+      margin: auto;
+    }
+
+    .who-are-we-section .slides .slide-1 {
+      width: 100%;
+    }
+    
+    .who-are-we-section .slides .slide-white {
+      width: 100%;
+      top: 5%;
+      left: 25%;
+    }
+    
+    .who-are-we-section .slides .slide-2 {
+      width: 100%;
+      top: -13%;
+      left: 15%;
     }
   }
 
@@ -842,6 +920,30 @@
     font-size: 14px;
   }
 
+  .who-are-we-section .slides-parent {
+    margin: auto;
+  }
+
+  .who-are-we-section .slides .slide-1 {
+    width: 100%;
+  }
+  
+  .who-are-we-section .slides .slide-white {
+    width: 100%;
+    top: 5%;
+    left: 25%;
+  }
+  
+  .who-are-we-section .slides .slide-2 {
+    width: 100%;
+    top: -13%;
+    left: 15%;
+  }
+
+  .copyrights-section .row {
+    flex-direction: column-reverse;
+  }
+
 }
 
 @media all and (max-width: 575px) {
@@ -964,5 +1066,25 @@
 
   .footer-section li {
     font-size: 14px;
+  }
+
+  .who-are-we-section .slides-parent {
+    margin: auto;
+  }
+
+  .who-are-we-section .slides .slide-1 {
+    width: 100%;
+  }
+  
+  .who-are-we-section .slides .slide-white {
+    width: 100%;
+    top: 5%;
+    left: 25%;
+  }
+  
+  .who-are-we-section .slides .slide-2 {
+    width: 100%;
+    top: -13%;
+    left: 15%;
   }
 }
