@@ -240,6 +240,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: 85%;
 }
 
 .our-programs-section .program .overlay {
@@ -251,9 +252,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: 110%;
 }
 
-.our-programs-section .program .overlay .icon {
+/* .our-programs-section .program .overlay .icon {
   background-color: #2786CC;
   display: flex;
   justify-content: center;
@@ -268,7 +270,7 @@
   width: 25px;
   height: 25px;
   font-size: 14px;
-}
+} */
 
 
 .our-programs-section .btn {
@@ -284,7 +286,7 @@
 .our-programs-section .owl-carousel .owl-nav .owl-prev {
   position: absolute;
   bottom: -10%;
-  font-size: 50px;
+  font-size: 25px;
   right: 50%;
   color: #2786CC;
 }
@@ -292,7 +294,7 @@
 .our-programs-section .owl-carousel .owl-nav .owl-next {
   position: absolute;
   bottom: -10%;
-  font-size: 50px;
+  font-size: 25px;
   left: 50%;
   color: #2786CC;
 }
@@ -330,7 +332,7 @@
 .our-gallery-section .owl-carousel .owl-nav .owl-prev {
   position: absolute;
   bottom: 50%;
-  font-size: 50px;
+  font-size: 25px;
   right: 100%;
   color: #2786CC;
 }
@@ -338,7 +340,7 @@
 .our-gallery-section .owl-carousel .owl-nav .owl-next {
   position: absolute;
   bottom: 50%;
-  font-size: 50px;
+  font-size: 25px;
   left: 100%;
   color: #2786CC;
 }
@@ -457,17 +459,17 @@
   .success-partners-section .owl-carousel .owl-nav .owl-prev {
     position: absolute;
     bottom: -10%;
-    font-size: 50px;
+    font-size: 25px;
     right: 50%;
-    color: #707070;
+    color: #2786CC;
   }
   
   .success-partners-section .owl-carousel .owl-nav .owl-next {
     position: absolute;
     bottom: -10%;
-    font-size: 50px;
+    font-size: 25px;
     left: 50%;
-    color: #707070;
+    color: #2786CC;
   }
 
   .success-partners-section .owl-carousel .owl-nav .owl-prev:hover {
@@ -522,13 +524,13 @@
   @media all and (max-width: 1450px) {
     .our-gallery-section .owl-carousel .owl-nav .owl-prev {
         bottom: 50%;
-        font-size: 50px;
+        font-size: 25px;
         right: 95%;
     }
   
     .our-gallery-section .owl-carousel .owl-nav .owl-next {
         bottom: 50%;
-        font-size: 50px;
+        font-size: 25px;
         left: 95%;
     }
   }
@@ -901,13 +903,13 @@
   
   .our-gallery-section .owl-carousel .owl-nav .owl-prev {
       bottom: 50%;
-      font-size: 50px;
+      font-size: 25px;
       right: 90%;
   }
 
   .our-gallery-section .owl-carousel .owl-nav .owl-next {
       bottom: 50%;
-      font-size: 50px;
+      font-size: 25px;
       left: 90%;
   }
 
@@ -947,6 +949,15 @@
 }
 
 @media all and (max-width: 575px) {
+
+  .our-programs-section .program {
+    width: 100%;
+  }
+
+  .our-programs-section .program .overlay .text {
+    font-size: 14px;
+  }
+
 
   .rectangle .left-side .rectangle-item {
     font-size: 10px;
@@ -1040,16 +1051,14 @@
 
   .our-gallery-section .owl-carousel .owl-nav .owl-prev {
       bottom: 50%;
-      font-size: 40px;
       right: 85%;
-      font-size: 50px;
+      font-size: 25px;
     }
 
   .our-gallery-section .owl-carousel .owl-nav .owl-next {
       bottom: 50%;
-      font-size: 40px;
       left: 85%;
-      font-size: 50px;
+      font-size: 25px;
   }
 
   .our-gallery-section .btn {

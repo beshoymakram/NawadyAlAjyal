@@ -29,7 +29,7 @@ $('#owl-3').owlCarousel({
     navText: ['<i class="fa-solid bg-white rounded-circle fa-circle-arrow-left"></i>', '<i class="fa-solid bg-white rounded-circle fa-circle-arrow-right"></i>'],
     responsive: {
         0: {
-            items: 1
+            items: 2
         },
         600: {
             items: 2
