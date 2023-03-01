@@ -21,7 +21,7 @@ $('#owl-1').owlCarousel({
 
 $('#owl-3').owlCarousel({
     loop: true,
-    margin: 30,
+    margin: 10,
     padding: 0,
     nav: true,
     autoHeight: true,
@@ -33,6 +33,9 @@ $('#owl-3').owlCarousel({
         },
         600: {
             items: 2
+        },
+        800: {
+            items: 3
         },
         1200: {
             items: 3
